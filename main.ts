@@ -14,6 +14,6 @@ function Printx(x:number):void{
         console.log(t);
     }
 }
-let x:number=5;
+let x:string=process.argv[2];
 
-Printx(x);
+Printx(parseInt(x));

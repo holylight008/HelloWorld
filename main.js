@@ -13,5 +13,5 @@ function Printx(x) {
         console.log(t);
     }
 }
-var x;
-Printx(x);
+var x = process.argv[2];
+Printx(parseInt(x));
