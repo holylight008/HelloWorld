@@ -12,8 +12,8 @@
 3. warmhearted
 4. clever and clear
 5. little haughty  
----
-![PIG](http://img0.imgtn.bdimg.com/it/u=3720427544,2090305292&fm=21&gp=0.jpg)
+
+![PIG](http://image72.360doc.com/DownloadImg/2014/04/2301/40991904_10.jpg)
 
 
     
