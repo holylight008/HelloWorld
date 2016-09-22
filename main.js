@@ -1,17 +1,18 @@
-function Printx(x) {
-    var i, j = 0;
-    for (i = 0; i < x; i++) {
-        var t = "";
-        for (j = 0; j < x + i; j++) {
-            if (j < x - i - 1) {
-                t += " ";
+
+function BulidPyramid(layer) {
+    var raw, line = 0;
+    for (raw = 0; raw < layer; raw++) {
+        var rawTotal = "";
+        for (line = 0; line < layer + raw; line++) {
+            if (line < layer - raw - 1) {
+                rawTotal += " ";
             }
             else {
-                t += "*";
+                rawTotal += "*";
             }
         }
-        console.log(t);
+        console.log(rawTotal);
     }
 }
 var x = process.argv[2];
-Printx(parseInt(x));
+BulidPyramid(parseInt(x));
