@@ -145,22 +145,22 @@ declare class NodeProcess extends EventEmitter {
 }
 
 declare var process: NodeProcess;
-function Printx(x:number):void{
-    let i,j:number=0;
+function BulidPyramid(layer:number):void{
+    let raw,line:number=0;
     
-    for(i=0;i<x;i++){
-        let t :string="";
-        for(j=0;j<x+i;j++){
-            if(j<x-i-1){
-                t+=" ";
+    for(raw=0;raw<layer;raw++){
+        let rawTotal :string="";
+        for(line=0;line<layer+raw;line++){
+            if(line<layer-raw-1){
+                rawTotal+=" ";
             }
             else{
-                t+="*";
+                rawTotal+="*";
             }
         }
-        console.log(t);
+        console.log(rawTotal);
     }
 }
 let x:string=process.argv[2];
 
-Printx(parseInt(x));
+BulidPyramid(parseInt(x));
